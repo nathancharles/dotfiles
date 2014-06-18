@@ -1,0 +1,10 @@
+[user]
+        name = nathancharles
+        email = nathancookster@gmail.com
+[github]
+        username = nathancharles
+        user = nathancharles
+[credential]
+        helper = cache --timeout 3600
+[url "https://github.com/"]
+        insteadOf = git://github.com/
