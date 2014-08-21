@@ -1,0 +1,44 @@
+[ui]
+username = Nathan Cook <nathancookster@gmail.com.com>
+verbose = True
+merge = meld
+
+[auth]
+bb.prefix = https://bitbucket.org/foo/
+bb.username = nathancharles
+bb.password =
+
+[web]
+push_ssl = false
+
+[extensions]
+color =
+graphlog =
+# https://bitbucket.org/astiob/hgshelve
+# hgshelve=/com/home/users/ncook/hgshelve/hgshelve.py
+hgext.bookmarks =
+
+[alias]
+# http://bitbucket.org/sjl/mercurial-cli-templates/
+# slog = log --style=/com/home/users/ncook/mercurial-templates/map-cmdline.slog
+# sglog = glog --style=/com/home/users/ncook/mercurial-templates/map-cmdline.sglog
+# dlog = log --style=/com/home/users/ncook/mercurial-templates/map-cmdline.dlog
+# nlog = log --style=/com/home/users/ncook/mercurial-templates/map-cmdline.nlog
+
+[color]
+status.modified = cyan
+status.added = green
+status.removed = red
+status.deleted = yellow bold underline
+status.unknown = magenta bold underline
+status.ignored = black bold
+diff.diffline = none
+diff.extended = cyan
+diff.file_a = red
+diff.file_b = green
+diff.hunk = yellow bold
+diff.deleted = red
+diff.inserted = green
+diff.changed = white
+diff.trailingwhitespace = white_background
+
