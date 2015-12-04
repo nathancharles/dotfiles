@@ -1,35 +1,39 @@
 {
-  "auto_complete": true,
-  "color_scheme": "Packages/Dayle Rees Color Schemes/sublime/peacock.tmTheme",
-  "detect_indentation": true,
-  "file_exclude_patterns":
-  [
-    ".DS_Store",
-    "clientlibs/*.css",
-    "clientlib/*.css",
-    "*.class",
-    "*.scssc",
-    "*/target*",
-    ".project",
-    ".classpath"
-  ],
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    "*/target*"
-  ],
-  "font_face": "Source Code Pro",
-  "font_size": 12,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "indent_to_bracket": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_automatic_white_space": true,
-  "trim_trailing_white_space_on_save": true,
-  "use_tab_stops": true,
-  "ensure_newline_at_eof_on_save": true
+	"auto_complete": true,
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/peacock.tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"clientlibs/*.css",
+		"clientlib/*.css",
+		"*.class",
+		"*.scssc",
+		".project",
+		".classpath"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		"*/target",
+		"tmp"
+	],
+	"binary_file_patterns": [
+		"node_modules/*",
+		"bower_components/*"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
 }
