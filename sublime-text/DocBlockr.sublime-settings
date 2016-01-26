@@ -1,0 +1,8 @@
+{
+  "jsdocs_notation_map": [
+    {
+      "prefix": "_",
+      "tags": ["@private"]
+    }
+  ]
+}
